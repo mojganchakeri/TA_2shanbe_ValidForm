@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TA session 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="valid_form.css"/>
+    <script src="valid_form.js"></script>
+</head>
+<body>
+<form>
+    <fieldset><legend>Personal</legend>
+    <p>
+        <input  type="text" id="username" placeholder="Name" name="username"><span class="required">*</span>
+    </p>
+    <p>
+        <input type="text" id="email" placeholder="Email" name = "email"><span class="required">*</span>
+    </p>
+    <p>
+        <input type="text" id="number" placeholder="Contact No" name="number"><span class="required">*</span>
+    </p>
+    </fieldset>
+    <fieldset><legend>Message</legend>
+       <textarea name="field6" class="textarea-field" placeholder="Enter Your Message" id = "text"></textarea>
+       <div class="submit"><input type="button" id="submit" value = "Sign Up"></div>
+    </fieldset>
+
+</form>
+<p id="message" ></p>
+<table id="table1" border="3" cellspacing="10">
+    <tr>
+        <td> Name </td>
+        <td> Contact No.</td>
+        <td> Email</td>
+        <td> Message</td>
+    </tr>
+    <tbody id="tbody">
+
+    </tbody>
+</table>
+
+</body>
+</html>
